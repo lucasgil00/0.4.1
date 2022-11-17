@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+ 
+.pendentes{
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  border-radius: 10px ;
+  padding: 5px;
+}
+
+.concluidas{
+color: green;
+border: 1px solid green;
+border-radius: 10px;
+padding: 5px;
+}
+
+.Excluidas{
+color: brown;
+border: 1px solid brown;
+border-radius: 10px; 
+padding: 5px;
+}
+
+p:nth-child(even) {
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+}
+
+p:nth-child(odd) {
+    border: 1px solid greenyellow;
+}
